@@ -1,5 +1,5 @@
 // Your code goes here
-
+/**
 // #1 Single click to change background color / color of text
 const subHeader1 = document.querySelector("h2");
 
@@ -90,9 +90,8 @@ navLinks[2].addEventListener("click", e => {
 });
 navLinks[3].addEventListener("click", e => {
     e.preventDefault();
-});
+}); */
 
-/** 
     // Change to red mouse over
     let logoHeading = document.querySelector('.logo-heading');
 logoHeading.addEventListener('mouseover', (event) => {
@@ -222,4 +221,4 @@ imageContent2.addEventListener('click', (event) => {
     event.stopPropagation();
     alert('Image');
 });
- */
+ 
