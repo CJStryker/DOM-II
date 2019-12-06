@@ -54,6 +54,7 @@ for (var i = 0; i < linksin.length; i++) {
     });
 }
 
+
 // Change it back
 const linksout = document.querySelectorAll('a');
 for (var i = 0; i < linksout.length; i++) {
@@ -63,10 +64,12 @@ for (var i = 0; i < linksout.length; i++) {
     });
 }
 
+
 // Page loaded
 window.addEventListener('load', (event) => {
     alert("The Page Loaded");
 });
+
 
 // Change home link background to pink
 const formChange = document.querySelector('a');
@@ -74,10 +77,12 @@ formChange.addEventListener('focus', (event) => {
     event.target.style.background = 'pink';
 });
 
+
 // Change it back
 formChange.addEventListener('blur', (event) => {
     event.target.style.background = 'white';
 });
+
 
 // Prevent default for nav items
 const links = document.querySelectorAll('a');
@@ -87,6 +92,7 @@ for (var i = 0; i < links.length; i++) {
         // prevent default refresh on anchors
     });
 }
+
 
 // Contact form key position
 let inputFields = document.querySelectorAll('.form-contact input');
