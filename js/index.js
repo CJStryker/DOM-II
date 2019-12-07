@@ -109,6 +109,7 @@ logoHeading.addEventListener('click', (event) => {
     alert('Please subscribe for updates!');
 })
 
+
 // Change button to purple
 // Change text
 let button1 = document.querySelectorAll('.destination .btn')[0]
