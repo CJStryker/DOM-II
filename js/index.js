@@ -108,6 +108,7 @@ for (let i = 0; i < inputFields.length; i++) {
     })
 }
 
+
 // Stop propagation
 const textContent = document.querySelector('.text-content');
 textContent.addEventListener('click', (event) => {
